@@ -1,17 +1,16 @@
 {
-  "author": "Pascal Precht",
-  "name": "angular-component-seed",
-  "description": "Seed for reusable Angular components.",
+  "name": "angular-security",
+  "description": "An AngularJS module that tries to simplify security handling (authentication, authorization, etc.)",
   "version": "0.1.1",
-  "homepage": "http://github.com/PascalPrecht/angular-component-seed",
+  "homepage": "https://github.com/angularjs-de/angular-security",
   "repository": {
     "type": "git",
-    "url": "git://github.com/PascalPrecht/angular-component-seed"
+    "url": "git://github.com/angularjs-de/angular-security"
   },
   "dependencies": {
-    "angular": "~1.2.3"
+    "angular": "~1.2.6"
   },
   "devDependencies": {
-    "angular-mocks": "~1.2.3"
+    "angular-mocks": "~1.2.6"
   }
 }

@@ -1,15 +1,23 @@
 {
-  "name": "angular-component-seed",
+  "name": "angular-security",
   "version": "0.1.1",
-  "description": "Seed for reusable Angular components.",
+  "description": "An AngularJS module that tries to simplify security handling (authentication, authorization, etc.)",
   "main": "component.js",
   "scripts": {
-    "test": "./node_modules/karma/bin/karma start --browsers Firefox --single-run"
+    "test": "./node_modules/karma/bin/karma start --browsers Chrome --single-run"
   },
-  "author": {
-    "name": "Pascal Precht"
-  },
-  "license": "WTFPL",
+  "contributors": [
+      {
+          "name": "Philipp Tarasiewicz"
+      },
+      {
+          "name": "Sascha Brink"
+      },
+      {
+          "name": "Robin Böhm"
+      }
+  ],
+  "license": "Apache-2.0",
   "devDependencies": {
     "grunt": "~0.4.2",
     "grunt-contrib-watch": "~0.5.3",
