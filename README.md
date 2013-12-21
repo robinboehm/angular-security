@@ -1,3 +1,3 @@
-# angular-component-seed
+# angular-security
 
-> A seed for reusable Angular components
+> An AngularJS module that tries to simplify security handling (authentication, authorization, etc.)
