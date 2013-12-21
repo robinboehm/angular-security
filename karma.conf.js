@@ -12,7 +12,7 @@ module.exports = function(config) {
       'bower_components/angular/angular.js',
       'bower_components/angular-mocks/angular-mocks.js',
       'src/**/*.js',
-      'test/**/*Spec.js'
+      'test/**/*.spec.js'
     ],
 
     frameworks: ['jasmine'],
@@ -46,7 +46,7 @@ module.exports = function(config) {
 
 
     // enable / disable watching file and executing tests whenever any file changes
-    autoWatch: true,
+    autoWatch: false,
 
 
     // Start these browsers, currently available:
@@ -66,6 +66,6 @@ module.exports = function(config) {
 
     // Continuous Integration mode
     // if true, it capture browsers, run tests and exit
-    singleRun: false
+    singleRun: true
   });
 };
